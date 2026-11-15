@@ -11,8 +11,8 @@ Buoi01_DeQuy/
 ├── Chương 1/   Chuong1.csproj, Program.cs, Bai1.cs ... Bai5.cs
 ├── Chương 2/   Chuong2.csproj, Program.cs, Bai1.cs ... Bai6.cs
 └── Chương 3/   Chuong3.csproj, Program.cs, Bai1.cs ... Bai8.cs
-```text
-## Chương 1
+```
+**Chương 1**
 
 | Menu | File | Nội dung |
 | :---: | :---: | :--- |
