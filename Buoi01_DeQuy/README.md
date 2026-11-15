@@ -54,6 +54,115 @@ dotnet run --project "Bài 3/Bài 3.csproj"
 ```
 ## CHƯƠNG 1
 **BÀI 1**
+```text
+namespace Bài_1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Random rnd = new Random();
+            int[] arr = new int[1000];
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = rnd.Next(1, 1000);
+            }
+            int max = arr[0];
+            int min = arr[0];
+            foreach (int x in arr)
+            {
+                if (x > max)
+                {
+                    max = x;
+                }
+                if (x < min)
+                {
+                    min = x;
+                }
+            }
+            Console.WriteLine("Số lớn nhất: " + max);
+            Console.WriteLine("Số nhỏ nhất: " + min);
+        }
+    }
+}
+```
+**KẾT QUẢ**
+```text
+Số lớn nhất: 999
+Số nhỏ nhất: 1
+```
+**BÀI 2**
+```text
+```
+**BÀI 3**
+```text
+```
+**BÀI 4**
+```text
+```
+**BÀI 5**
+```text
+```
+## CHƯƠNG 2
+**BÀI 1**
+```text
+
+```
+**BÀI 2**
+```text
+
+```
+**BÀI 3**
+```text
+
+```
+**BÀI 4**
+```text
+
+```
+**BÀI 5**
+```text
+
+```
+**BÀI 6**
+```text
+
+```
+## CHƯƠNG 3
+**BÀI 1**
+```text
+
+```
+**BÀI 2**
+```text
+
+```
+**BÀI 3**
+```text
+
+```
+**BÀI 4**
+```text
+
+```
+**BÀI 5**
+```text
+
+```
+**BÀI 6**
+```text
+
+```
+**BÀI 7**
+```text
+
+```
+**BÀI 8**
+```text
+
+```
+
 
 
 
