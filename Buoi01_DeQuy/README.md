@@ -14,28 +14,28 @@ Buoi01_DeQuy/
 ```
 **Chương 1**
 
-| Menu | File | Nội dung |
-| :---: | :---: | :--- |
-| 1 | `Bai1.cs` | Tìm số lớn nhất, nhỏ nhất trong 1000 số ngẫu nhiên |
-| 2 | `Bai2.cs` | FizzBuzz từ 1 đến 100 |
-| 3 | `Bai3.cs` | Đảo ngược chuỗi |
-| 4 | `Bai4.cs` | In mảng và sắp xếp tăng dần |
-| 5 | `Bai5.cs` | Tìm số Fibonacci thứ n |
+| Bài | Nội dung |
+| :---: | :--- |
+| 1 | Tìm số lớn nhất, nhỏ nhất trong 1000 số ngẫu nhiên |
+| 2 | FizzBuzz từ 1 đến 100 |
+| 3 | Đảo ngược chuỗi |
+| 4 | In mảng và sắp xếp tăng dần |
+| 5 | Tìm số Fibonacci thứ n |
 
 **Chương 2**
 
-| Menu | File | Nội dung |
+| Bài | File | Nội dung |
 | :---: | :---: | :--- |
-| 1 | `Bai1.cs` | Tháp Hà Nội (đệ quy), đo thời gian thực thi |
-| 2 | `Bai2.cs` | Tìm kiếm nhị phân bằng đệ quy |
-| 3 | `Bai3.cs` | Kiểm tra số nguyên tố |
-| 4 | `Bai4.cs` | Liệt kê số hoàn hảo nhỏ hơn n |
-| 5 | `Bai5.cs` | Fibonacci bằng vòng lặp |
-| 6 | `Bai6.cs` | Sắp xếp nổi bọt (Bubble Sort) |
+| 1 | `Bài 1.cs` | Tháp Hà Nội (đệ quy), đo thời gian thực thi |
+| 2 | `Bài 2.cs` | Tìm kiếm nhị phân bằng đệ quy |
+| 3 | `Bài 3.cs` | Kiểm tra số nguyên tố |
+| 4 | `Bài 4.cs` | Liệt kê số hoàn hảo nhỏ hơn n |
+| 5 | `Bài 5.cs` | Fibonacci bằng vòng lặp |
+| 6 | `Bài 6.cs` | Sắp xếp nổi bọt (Bubble Sort) |
 
 **Chương 3**
 
-| Menu | File | Nội dung |
+| Bài | File | Nội dung |
 | :---: | :---: | :--- |
 | 1 | `Bai1.cs` | S(n) = 1 + 2 + 3 + … + n |
 | 2 | `Bai2.cs` | S(n) = 1 + 2² + 3² + … + n²|
