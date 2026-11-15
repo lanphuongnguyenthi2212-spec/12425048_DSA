@@ -4,7 +4,7 @@ Họ tên: Nguyễn Thị Lan Phương · MSV: 12425048
 
 ## Bài đã làm
 
-Bài tập chia theo 3 chương, mỗi chương là một thư mục và là một project console C#. Mỗi chương có file `Program.cs` là menu để chọn bài cần chạy; mỗi bài nằm ở một file riêng `Bai1.cs`, `Bai2.cs`, ...
+Bài tập chia theo 3 chương, mỗi chương là một thư mục tổng và là một project console C#. Mỗi chương có file `Program.cs` là menu để chọn bài cần chạy; mỗi bài nằm ở một file riêng `Bai1.cs`, `Bai2.cs`, ...
 ```text
 Buoi01_DeQuy/
 ├── README.md
@@ -46,10 +46,12 @@ Buoi01_DeQuy/
 | 7 | `Bai7.cs` | Đếm số chữ số của n |
 | 8 | `Bai8.cs` | S(n) = √(1 + √(2 + … + √n)) |
 
-dotnet run --project "Buoi01_DeQuy/Chương 1"
+## CÁCH CHẠY
+```text
+dotnet run 
 dotnet run --project "Buoi01_DeQuy/Chương 2"
 dotnet run --project "Buoi01_DeQuy/Chương 3"
-
+```
 
 
 
