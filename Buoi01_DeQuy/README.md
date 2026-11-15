@@ -3,15 +3,6 @@
 Họ tên: Nguyễn Thị Lan Phương · MSV: 12425048
 
 ## Bài đã làm
-
-Bài tập chia theo 3 chương, mỗi chương là một thư mục tổng và là một project console C#. Mỗi chương có file `Program.cs` là menu để chọn bài cần chạy; mỗi bài nằm ở một file riêng `Bai1.cs`, `Bai2.cs`, ...
-```text
-Buoi01_DeQuy/
-├── README.md
-├── Chương 1/   Chuong1.csproj, Program.cs, Bai1.cs ... Bai5.cs
-├── Chương 2/   Chuong2.csproj, Program.cs, Bai1.cs ... Bai6.cs
-└── Chương 3/   Chuong3.csproj, Program.cs, Bai1.cs ... Bai8.cs
-```
 **Chương 1**
 
 | Bài | Nội dung |
@@ -24,33 +15,56 @@ Buoi01_DeQuy/
 
 **Chương 2**
 
-| Bài | File | Nội dung |
-| :---: | :---: | :--- |
-| 1 | `Bài 1.cs` | Tháp Hà Nội (đệ quy), đo thời gian thực thi |
-| 2 | `Bài 2.cs` | Tìm kiếm nhị phân bằng đệ quy |
-| 3 | `Bài 3.cs` | Kiểm tra số nguyên tố |
-| 4 | `Bài 4.cs` | Liệt kê số hoàn hảo nhỏ hơn n |
-| 5 | `Bài 5.cs` | Fibonacci bằng vòng lặp |
-| 6 | `Bài 6.cs` | Sắp xếp nổi bọt (Bubble Sort) |
+| Bài | Nội dung |
+| :---: | :--- |
+| 1 | Tháp Hà Nội (đệ quy), đo thời gian thực thi |
+| 2 | Tìm kiếm nhị phân bằng đệ quy |
+| 3 | Kiểm tra số nguyên tố |
+| 4 | Liệt kê số hoàn hảo nhỏ hơn n |
+| 5 | Tìm số Fibonacci thứ n |
+| 6 | Sắp xếp một dãy n số thực thành một dãy tăng dần |
 
 **Chương 3**
 
 | Bài | File | Nội dung |
 | :---: | :---: | :--- |
-| 1 | `Bai1.cs` | S(n) = 1 + 2 + 3 + … + n |
-| 2 | `Bai2.cs` | S(n) = 1 + 2² + 3² + … + n²|
-| 3 | `Bai3.cs` | S(n) = 1 + 1/2 + 1/3 + … + 1/n |
-| 4 | `Bai4.cs` | S(x, n) = xⁿ (n có thể âm)|
-| 5 | `Bai5.cs` | Ước lẻ lớn nhất của n|
-| 6 | `Bai6.cs` | Ước chung lớn nhất UCLN(a, b)
-| 7 | `Bai7.cs` | Đếm số chữ số của n |
-| 8 | `Bai8.cs` | S(n) = √(1 + √(2 + … + √n)) |
+| 1 | Tính S(n) = 1 + 2 + 3 + … +(n-1) + n |
+| 2 | Tính S(n) = 1 + 2² + 3² + … + (n-1)² + n²|
+| 3 | Tính S(n) = 1 + 1/2 + 1/3 + … + 1/(n-1) + 1/n |
+| 4 | Tính S(x, n) = xⁿ 
+| 5 | Tính ước lẻ lớn nhất của số nguyên dương n|
+| 6 | Tìm ước chung lớn nhất của 2 số nguyên dương a,b|
+| 7 | Đếm số chữ số của số nguyên dương n |
+| 8 | Tính S(n) = √(1 + √(2 + √(3 + √(4 + … + √n-1+√n)) |
 
 ## CÁCH CHẠY
+**CHƯƠNG 1**
 ```text
-dotnet run --project "Bài 1/Bài 1.csproj"
-dotnet run --project "Bài 2/Bài 2.csproj"
-dotnet run --project "Bài 3/Bài 3.csproj"
+dotnet run --project "Chương 1/Bài 1"
+dotnet run --project "Chương 1/Bài 2"
+dotnet run --project "Chương 1/Bài 3"
+dotnet run --project "Chương 1/Bài 4"
+dotnet run --project "Chương 1/Bài 5"
+```
+**CHƯƠNG 2**
+```text
+dotnet run --project "Chương 2/Bài 1"
+dotnet run --project "Chương 2/Bài 2"
+dotnet run --project "Chương 2/Bài 3"
+dotnet run --project "Chương 2/Bài 4"
+dotnet run --project "Chương 2/Bài 5"
+dotnet run --project "Chương 2/Bài 6"
+```
+**CHƯƠNG 3**
+```text
+dotnet run --project "Chương 3/Bài 1"
+dotnet run --project "Chương 3/Bài 2"
+dotnet run --project "Chương 3/Bài 3"
+dotnet run --project "Chương 3/Bài 4"
+dotnet run --project "Chương 3/Bài 5"
+dotnet run --project "Chương 3/Bài 6"
+dotnet run --project "Chương 3/Bài 7"
+dotnet run --project "Chương 3/Bài 8"
 ```
 ## CHƯƠNG 1
 **BÀI 1**
