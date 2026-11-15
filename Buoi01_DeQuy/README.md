@@ -48,10 +48,12 @@ Buoi01_DeQuy/
 
 ## CÁCH CHẠY
 ```text
-dotnet run 
-dotnet run --project "Buoi01_DeQuy/Chương 2"
-dotnet run --project "Buoi01_DeQuy/Chương 3"
+dotnet run --project "Bài 1/Bài 1.csproj"
+dotnet run --project "Bài 2/Bài 2.csproj"
+dotnet run --project "Bài 3/Bài 3.csproj"
 ```
+## CHƯƠNG 1
+**BÀI 1**
 
 
 
